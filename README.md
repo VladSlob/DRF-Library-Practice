@@ -59,7 +59,12 @@ Python 3 needs to be installed beforehand.
 
 How to use it:
 
+1. Download the code
 ```
 $ # Get the code
 $ git clone https://github.com/VladimirDolhyi/library.git
 $ cd library_api
+```
+
+Set Up:
+Install modules via VENV
