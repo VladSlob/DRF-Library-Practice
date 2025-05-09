@@ -42,4 +42,13 @@ Tasks:
    - Implement an is_active parameter to filter borrowings by their status (i.e., whether they are still active/not returned).
    - For admin users, add a user_id parameter: if specified, it filters borrowings for that specific user; if not, it displays all users' borrowings.
 
-7. 
+7. Design and implement the feature that enables the return of borrowed books.
+   - Ensure that a borrowing cannot be returned more than once.
+   - Increase the book's inventory by one upon return.
+   - Implement an endpoint for handling book returns.
+
+8. Create the Payments List endpoint to display all payment transactions and a Payment Detail endpoint to show information for a specific payment.
+   - This task serves as a straightforward introduction to the payments functionality within the system.
+   - Create the 'Payment' model.
+   - Create the serializer and views for the list and detail endpoints.
+   - Ensure that non-admin users can only view their own payments, while administrators can view all payments.
