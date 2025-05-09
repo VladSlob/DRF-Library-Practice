@@ -99,3 +99,5 @@ Features:
 - Creating borrowings with books
 - Creating payments with borrowings
 - Filtering borrowings: /api/borrowings/?user_id=...&is_active=... - get borrowings by user id and whether is borrowing still active or not.
+
+Database Schema
