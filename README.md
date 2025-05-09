@@ -12,3 +12,4 @@ Tasks:
    - Implement the serializer and views for all endpoints.
 
 2. Enable CRUD operations for the Users Service.
+   - 
