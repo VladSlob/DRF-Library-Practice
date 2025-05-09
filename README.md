@@ -18,4 +18,7 @@ Tasks:
    - For improved usability with the ModHeader Chrome extension, change the default 'Authorization' header for JWT authentication to something like 'Authorize'. Refer to the documentation for implementation details.
    - Implement the serializer and views for all endpoints.
 
-3. 
+3. Implement permission controls for the Books Service.
+   - Only administrator users should have the permission to create, update, and delete books.
+   - All users, including those who are not logged in, should be able to view the list of books.
+   - Implement JWT token authentication provided by the users service to manage permissions.
