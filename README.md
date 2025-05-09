@@ -52,3 +52,14 @@ Tasks:
    - Create the 'Payment' model.
    - Create the serializer and views for the list and detail endpoints.
    - Ensure that non-admin users can only view their own payments, while administrators can view all payments.
+
+Installing using GitHub:
+
+Python 3 needs to be installed beforehand.
+
+How to use it:
+
+Download the code
+$ # Get the code
+$ git clone https://github.com/VladSlob/DRF-Library-Practice
+$ cd library_api
