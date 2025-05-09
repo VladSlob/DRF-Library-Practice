@@ -12,4 +12,10 @@ Tasks:
    - Implement the serializer and views for all endpoints.
 
 2. Enable CRUD operations for the Users Service.
-   - 
+  - Initialize the 'users' application.
+  - Add the 'User' model including an email field.
+  - Implement JWT (JSON Web Token) support.
+  - For improved usability with the ModHeader Chrome extension, change the default 'Authorization' header for JWT authentication to something like 'Authorize'. Refer to the documentation for implementation details.
+  - Implement the serializer and views for all endpoints.
+
+3. 
