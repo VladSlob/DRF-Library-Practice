@@ -29,3 +29,17 @@ Tasks:
    - Implement a read serializer that includes detailed book information.
    - Implement the list and detail endpoints.
 
+5. Create the endpoint to handle the process of borrowing a book.
+   - Implement a create serializer.
+   - Validate that the book inventory is greater than zero.
+   - Reduce the book inventory by one.
+   - Associate the currently logged-in user with the borrowing record.
+   - Implement the create endpoint.
+
+6. Add functionality to filter the results of the Borrowings List endpoint.
+   - Ensure that non-admin users can only view their own borrowing records.
+   - Restrict access to borrowing information to authenticated users only.
+   - Implement an is_active parameter to filter borrowings by their status (i.e., whether they are still active/not returned).
+   - For admin users, add a user_id parameter: if specified, it filters borrowings for that specific user; if not, it displays all users' borrowings.
+
+7. 
