@@ -62,7 +62,5 @@ How to use it:
 Download the code
 
 $ # Get the code
-
-$ git clone https://github.com/VladSlob/DRF-Library-Practice
-
+$ git clone https://github.com/VladimirDolhyi/library.git
 $ cd library_api
