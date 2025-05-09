@@ -62,9 +62,27 @@ How to use it:
 1. Download the code
 ```
 $ # Get the code
-$ git clone https://github.com/VladimirDolhyi/library.git
+$ git clone https://github.com/VladSlob/DRF-Library-Practice
 $ cd library_api
 ```
 
 Set Up:
-Install modules via VENV
+
+1. Install modules via VENV
+```
+$ python -m venv venv
+$ source venv/bin/activate (on macOS)
+$ venv\Scripts\activate (on Windows)
+$ pip install -r requirements.txt
+```
+
+2. Set Up Database
+```
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+3. Run the server
+```
+$ python manage.py runserver
+```
