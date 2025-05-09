@@ -7,8 +7,8 @@ This is an API service built with Django REST Framework (DRF) for managing a lib
 
 Tasks:
 1. Enable CRUD operations for the Books Service.
-- Initialize the 'books' application.
-- Add the 'Book' model.
-- Implement the serializer and views for all endpoints.
+   - Initialize the 'books' application.
+   - Add the 'Book' model.
+   - Implement the serializer and views for all endpoints.
 
 2. Enable CRUD operations for the Users Service.
