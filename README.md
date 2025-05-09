@@ -101,3 +101,4 @@ Features:
 - Filtering borrowings: /api/borrowings/?user_id=...&is_active=... - get borrowings by user id and whether is borrowing still active or not.
 
 Database Schema
+![Скріншот](images/Database_schema.jpg)
