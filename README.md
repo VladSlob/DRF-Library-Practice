@@ -22,3 +22,10 @@ Tasks:
    - Only administrator users should have the permission to create, update, and delete books.
    - All users, including those who are not logged in, should be able to view the list of books.
    - Implement JWT token authentication provided by the users service to manage permissions.
+
+4. Create the Borrowing List endpoint to display all borrowing activities and a Borrowing Detail endpoint to show information for a specific borrowing.
+   - Initialize the 'borrowings' application.
+   - Add the 'Borrowing' model, including constraints for borrow_date, expected_return_date, and actual_return_date.
+   - Implement a read serializer that includes detailed book information.
+   - Implement the list and detail endpoints.
+
