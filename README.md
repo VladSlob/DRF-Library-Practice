@@ -86,3 +86,16 @@ $ python manage.py migrate
 ```
 $ python manage.py runserver
 ```
+
+Getting access:
+- create user via /api/users
+- get access token via /api/users/token
+
+Features:
+- JWT authenticated
+- Admin panel /admin/
+- Documentation is located at /api/doc/swagger/
+- Managing books, borrowings and payments
+- Creating borrowings with books
+- Creating payments with borrowings
+- Filtering borrowings: /api/borrowings/?user_id=...&is_active=... - get borrowings by user id and whether is borrowing still active or not.
