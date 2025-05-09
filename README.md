@@ -103,3 +103,9 @@ Features:
 Database Schema:
 
 ![Скріншот](images/Database_schema.jpg)
+
+Endpoints Example
+![Скріншот](images/Endpoints_Example.png)
+
+Borrowings Page Example
+![Скріншот](images/Borrowings_Page.png)
